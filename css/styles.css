@@ -1,0 +1,59 @@
+
+* {
+    font-family: Raleway;
+}
+
+html {
+    background-color: #DFDFDF;
+}
+
+
+#navbar-links p:hover {
+    background-color: rgba(85, 85, 85, 0.144);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@media all {
+    #green {
+        background-color: rgb(54, 199, 142);
+        color: aliceblue;
+        position: absolute;
+        width: auto;
+        margin: 10vw 4vh;
+        text-align: center;
+        padding: 2vw 10vh;
+        min-height: 40px;
+        font-size: smaller;
+    }
+}
+
+@media all and (min-width: 720px) {
+    #green {
+        background-color: rgb(54, 199, 142);
+        color: aliceblue;
+        position: absolute;
+        width: auto;
+        margin: 2vw 12vh;
+        text-align: center;
+        padding: 1vw 1vh;
+        min-height: 40px;
+        font-size: large;
+    }
+}
+
+@media all and (min-width: 960px) {
+    #green {
+        background-color: rgb(54, 199, 142);
+        color: aliceblue;
+        position: absolute;
+        width: auto;
+        margin: 2vw -2vh;
+        text-align: center;
+        padding: 1vw 2vh;
+        min-height: 40px;
+        font-size: x-large;
+    }
+}
